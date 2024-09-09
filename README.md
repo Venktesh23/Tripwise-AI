@@ -1,11 +1,12 @@
 # TripWise AI
-
-**TripWise AI** is a cutting-edge, full-stack trip planning application designed to make travel planning smart, efficient, and personalized. By integrating React, Gemini AI, Firebase, and TailwindCSS, TripWise AI delivers a seamless user experience with intelligent itinerary recommendations and a sleek, responsive design.
+**TripWise AI** is a cutting-edge, full-stack trip planning application designed to make travel planning smart, efficient, and personalized. By integrating React, Gemini AI, Firebase, TailwindCSS, and the Google Photos API, TripWise AI delivers a seamless user experience with intelligent itinerary recommendations, stunning place photos, and a sleek, responsive design.
 
 ## Features
 
 - **AI-Driven Itineraries**: Utilizes Gemini AI to create customized travel plans based on user preferences such as destination, duration, and budget.
 - **Real-Time Updates**: Employs Firebase for real-time data management, ensuring that travel plans are always current.
+- **Place Photos**: Integrates Google Photos API to display beautiful images of destinations and attractions.
+- **Trip History**: Saves user trip history, allowing users to revisit and manage past trips.
 - **Responsive Design**: Built with TailwindCSS for an intuitive and adaptive user interface across all devices.
 - **Secure Authentication**: Implements Firebase Authentication for safe and reliable user login and profile management.
 
@@ -14,6 +15,7 @@
 - **Frontend**: React.js, TailwindCSS
 - **Backend**: Firebase (Functions & Firestore)
 - **AI Integration**: Gemini AI for generating and optimizing travel itineraries
+- **Photo Integration**: Google Photos API for fetching and displaying images of places
 - **Authentication**: Firebase Authentication
 
 ## Installation
@@ -39,6 +41,7 @@
    FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
    FIREBASE_APP_ID=your_firebase_app_id
    GEMINI_API_KEY=your_gemini_api_key
+   GOOGLE_PHOTOS_API_KEY=your_google_photos_api_key
    ```
 
 4. **Run the application**:
@@ -53,7 +56,8 @@
 
 1. **Sign Up/Login**: Securely create an account or log in to access personalized features.
 2. **Plan a Trip**: Input your travel details and preferences to generate a tailored itinerary.
-3. **Save & Share**: Save your trip plans for future reference or share them with others.
+3. **View Place Photos**: Explore stunning images of destinations, thanks to the Google Photos API.
+4. **Save & Manage Trip History**: Save your trip plans for future reference or revisit past trips.
 
 ## Contributing
 
