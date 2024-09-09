@@ -16,25 +16,6 @@
 - **AI Integration**: Gemini AI for generating and optimizing travel itineraries
 - **Authentication**: Firebase Authentication
 
-## Project Structure
-
-Here's an overview of the project structure:
-
-- **`public/`**: Contains static assets like images and the main `index.html` file.
-- **`src/`**: The source code directory, including React components, pages, and styles.
-- **`.eslintrc.cjs`**: ESLint configuration for code quality and consistency.
-- **`.gitignore`**: Specifies which files and directories Git should ignore.
-- **`README.md`**: This file, providing an overview and instructions for the project.
-- **`components.json`**: Configuration file for managing React components.
-- **`index.html`**: The main HTML file used by Vite during development.
-- **`jsconfig.json`**: Configuration for JavaScript to enhance code navigation in VSCode.
-- **`package-lock.json`**: Locks the versions of dependencies.
-- **`package.json`**: Lists project dependencies, scripts, and metadata.
-- **`postcss.config.js`**: Configuration for PostCSS, including TailwindCSS plugins.
-- **`tailwind.config.js`**: Customizes TailwindCSS design system.
-- **`vercel.json`**: Configuration for deploying the application on Vercel.
-- **`vite.config.js`**: Configuration file for Vite, the build tool used.
-
 ## Installation
 
 1. **Clone the repository**:
